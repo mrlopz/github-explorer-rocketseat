@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"], // Adiciona funcionalidades
+    "allowJs": true, // Permite arquivos TS e JS
+    "jsx": "react-jsx", // Permite utilizar jsx
+    "noEmit": true, // Não emitir o código no build da aplicação
+    "strict": true, // Entra no modo strict do JS (Lidar com erros)
+    "moduleResolution": "node",
+    "resolveJsonModule": true, // Permite importação JSON
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": ["src"] // Todo o código está exclusivamente dentro do src
+}
